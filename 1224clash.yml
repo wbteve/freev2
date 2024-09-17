@@ -1,351 +1,603 @@
-port: 7890
+﻿port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 新加坡(欢迎订阅Youtube破解资源君), server: 104.248.145.117, port: 80, type: vmess, uuid: 92b82bbb-c007-45eb-b159-6e43724f5c13, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君), server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇨🇳 台湾(欢迎订阅Youtube破解资源君), server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 2, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 120.232.82.190, port: 2008, type: ss, cipher: aes-256-gcm, password: 8e2bb8a49c86c76d7876bb61d44f40d9, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 192.46.210.73, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: www.gov.hk}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 00.cn2.rocketdns.xyz, port: 65010, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: v34.88host.buzz, port: 18080, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 7, server: v35.88host.buzz, port: 18079, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 8, server: v34.88host.buzz, port: 18056, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v34.88host.buzz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 9, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 10, server: 00.cn3.rocketdns.xyz, port: 65021, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 11, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 12, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 13, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 14, server: 00.cn2.rocketdns.xyz, port: 65013, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 15, server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 16, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 17, server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 18, server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 19, server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 20, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 21, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 22, server: 211.99.96.36, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 23, server: 211.99.96.9, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 24, server: 211.99.96.17, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 25, server: 211.99.96.40, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 26, server: 211.99.96.35, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 27, server: 211.99.96.33, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 28, server: 211.99.96.34, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 29, server: 211.99.96.4, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 30, server: 211.99.96.31, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 31, server: 211.99.96.13, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 32, server: 211.99.96.11, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 33, server: 211.99.96.10, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 34, server: 116.163.14.52, port: 18075, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v28.88host.buzz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 35, server: 120.240.86.26, port: 18074, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v27.88host.buzz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 36, server: 120.241.72.97, port: 18119, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 37, server: 120.241.72.97, port: 18007, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v13.88host.buzz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 38, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 39, server: 120.232.173.66, port: 28038, type: vmess, uuid: fead7086-54ec-3772-b603-ba9e740ec3da, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hk.jd.com}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 40, server: 120.241.72.97, port: 18010, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v13.88host.buzz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 41, server: 120.197.88.216, port: 20047, type: vmess, uuid: d73ff709-70bf-4183-9648-6cb1f5e8aafd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 42, server: 120.197.88.216, port: 20005, type: vmess, uuid: 973f8975-e494-4c77-921f-212ca83fff8b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 43, server: 120.197.88.216, port: 20005, type: vmess, uuid: 2383d811-a0af-4c51-b9cf-450f42bb7c85, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 44, server: 116.163.10.145, port: 65001, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 45, server: 116.163.10.145, port: 65016, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 46, server: 120.197.88.216, port: 20047, type: vmess, uuid: 973f8975-e494-4c77-921f-212ca83fff8b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 47, server: 120.240.86.51, port: 18077, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v26.88host.buzz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 48, server: 116.163.14.146, port: 18043, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 49, server: 116.163.14.146, port: 18044, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 50, server: 116.163.14.29, port: 18028, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v24.88host.buzz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 51, server: 120.241.72.116, port: 18023, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v23.88host.buzz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 52, server: 120.241.72.116, port: 18027, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v23.88host.buzz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 53, server: 120.197.130.73, port: 18137, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v22.88host.buzz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 54, server: 120.240.86.41, port: 18029, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v25.88host.buzz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 55, server: 116.163.14.29, port: 18140, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v24.88host.buzz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 56, server: 120.197.130.73, port: 18026, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v22.88host.buzz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 57, server: 120.240.86.26, port: 18072, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v27.88host.buzz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 58, server: 116.163.14.52, port: 18073, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v28.88host.buzz}, udp: true}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君), server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3, server: 107.182.234.233, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV, udp: true}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4, server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj, udp: true}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5, server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP, udp: true}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6, server: 23.226.131.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP, udp: true}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 7, server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh, udp: true}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 8, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 9, server: 142.202.48.99, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 10, server: 142.202.48.43, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 11, server: 192.53.169.116, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 12, server: 38.121.43.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 13, server: 38.107.226.48, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 14, server: 142.202.48.43, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 15, server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 16, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 17, server: 38.121.43.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 18, server: 192.46.210.73, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 19, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 亚洲(油管:破解资源君), server: 85.208.108.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 亚洲(油管:破解资源君) 2, server: 162.159.128.7, port: 443, type: vmess, uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dsadsa1dsadsa33434, ws-headers: {Host: xjp4h.mayaa.ml}, udp: true}
+  - {name: 亚洲(油管:破解资源君) 3, server: do9.yyhm9.com, port: 443, type: vmess, uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /das321S8, ws-headers: {Host: do9.yyhm9.com}, udp: true}
+  - {name: 亚洲(油管:破解资源君) 4, server: 162.159.128.7, port: 443, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sshkit/1736960111/63859b5b38f53/, ws-headers: {Host: sg1-v2ray.sshkit.org}, udp: true}
+  - {name: 亚洲(油管:破解资源君) 5, server: hk80-2.sanfen001.pics, port: 80, type: vmess, uuid: cd1d82d9-253c-44a7-9b2f-94c8d80b49c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/download, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: 亚洲(油管:破解资源君) 6, server: 45.64.22.22, port: 443, type: vmess, uuid: 4bd74c27-d23a-4083-be2a-5c2c139dadb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /P3gjm, ws-headers: {Host: g.pgypgykmoljklj.xyz}, udp: true}
+  - {name: 亚洲(油管:破解资源君) 7, server: 172.67.199.34, port: 443, type: vmess, uuid: 781be00e-1e09-4e27-a464-e14197418c8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: id5.v2rayserv.com}, udp: true}
+  - {name: 亚洲(油管:破解资源君) 8, server: 172.67.199.34, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: sg-gcore.sharecentre.online}, udp: true}
+  - {name: 新加坡(油管:破解资源君), server: 129.150.44.64, port: 46075, type: vmess, uuid: da257e73-f02b-45ab-9916-7baf154c47a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jhndsmlanj11223, ws-headers: {Host: 129.150.44.64}, udp: true}
+  - {name: 新加坡(油管:破解资源君) 2, server: 157.230.36.235, port: 80, type: vmess, uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /graphql, ws-headers: {Host: 157.230.36.235}, udp: true}
+  - {name: 新加坡(油管:破解资源君) 3, server: 157.230.36.235, port: 80, type: vmess, uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /graphql, ws-headers: {Host: 157.230.36.235}, udp: true}
+  - {name: 新加坡(油管:破解资源君) 4, server: 162.159.135.42, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcoresgnode, ws-headers: {Host: gcoresg.sylu.cyou}, udp: true}
+  - {name: 香港(油管:破解资源君), server: 219.76.13.180, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: 香港(油管:破解资源君) 2, server: hk80.sanfen001.pics, port: 80, type: vmess, uuid: a63b1080-1b4c-4c55-b073-aec6f5689d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/download, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: 日本(油管:破解资源君), server: 162.159.128.7, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: opc-jp.sharecentre.online}, udp: true}
+  - {name: 日本(油管:破解资源君) 2, server: ap-northeast-1.openssl3.com, port: 443, type: trojan, password: tune7jerky7HAYRICK, sni: ap-northeast-1.openssl3.com, skip-cert-verify: true, udp: true}
+  - {name: 日本(油管:破解资源君) 3, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: jp-ntt.sharecentre.online}, udp: true}
+  - {name: 日本(油管:破解资源君) 4, server: ap-northeast-1.openssl3.com, port: 443, type: trojan, password: tune7jerky7HAYRICK, sni: ap-northeast-1.openssl3.com, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(油管:破解资源君2.0), server: 141.101.114.32, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: 欧洲(油管:破解资源君2.0) 2, server: 190.93.246.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: 欧洲(油管:破解资源君2.0) 3, server: 190.93.246.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: 欧洲(油管:破解资源君2.0) 4, server: 203.30.191.193, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: 欧洲(油管:破解资源君2.0) 5, server: 190.93.245.170, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
+  - {name: 欧洲(油管:破解资源君2.0) 6, server: 190.93.245.3, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: 欧洲(油管:破解资源君2.0) 7, server: 198.41.212.100, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg1.cfcdn3.xyz}, udp: true}
+  - {name: 欧洲(油管:破解资源君2.0) 8, server: 190.93.246.195, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
+  - {name: 欧洲(油管:破解资源君2.0) 9, server: 188.114.99.11, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: 欧洲(油管:破解资源君), server: 104.22.25.131, port: 80, type: vmess, uuid: 781be00e-1e09-4e27-a464-e14197418c8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: id5.v2rayserv.com}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 2, server: eu-east-ruo.openssl3.com, port: 443, type: trojan, password: 9KogHwaY7hVD, sni: eu-east-ruo.openssl3.com, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(油管:破解资源君) 3, server: 146.59.92.219, port: 2096, type: vmess, uuid: aca71b13-ec8a-466d-c28f-43516d3cf246, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 146.59.92.219}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 4, server: 85.208.108.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 欧洲(油管:破解资源君) 5, server: 85.208.108.60, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(油管:破解资源君) 6, server: 85.208.108.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 欧洲(油管:破解资源君) 7, server: 85.208.108.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(油管:破解资源君) 8, server: 85.208.108.60, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(油管:破解资源君) 9, server: 85.208.108.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲(油管:破解资源君) 10, server: aleph-tj015.thatfreeservicewhicheveryoneuse.uk, port: 443, type: trojan, password: d76294c5-a31f-408d-ba0b-89880107cab5, sni: aleph-tj015.thatfreeservicewhicheveryoneuse.uk, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(油管:破解资源君) 11, server: aleph-tj015.thatfreeservicewhicheveryoneuse.uk, port: 443, type: trojan, password: d76294c5-a31f-408d-ba0b-89880107cab5, sni: aleph-tj015.thatfreeservicewhicheveryoneuse.uk, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(油管:破解资源君) 12, server: 51.77.158.169, port: 2096, type: vmess, uuid: c92fd902-b5d3-4208-bb48-630b1c7babea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 51.77.158.169}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 13, server: content-provider4.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: shefelnak, sni: content-provider4.cdn-delivery.akamaicd.com, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(油管:破解资源君) 14, server: 146.59.92.219, port: 2096, type: vmess, uuid: aca71b13-ec8a-466d-c28f-43516d3cf246, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 146.59.92.219}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 15, server: 149.56.132.41, port: 80, type: trojan, password: 89d81c5f-3d75-42f7-8a23-1be9ac89f3fb, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(油管:破解资源君) 16, server: v10a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ZPKLSPJjLBEy, ws-headers: {Host: v10a.toddns.tk}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 17, server: 149.56.132.41, port: 80, type: trojan, password: fafb4232-9659-4867-886d-e47f4bda283e, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(油管:破解资源君) 18, server: 158.58.173.240, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 欧洲(油管:破解资源君) 19, server: 198.244.232.39, port: 2096, type: vmess, uuid: df46384b-1ad5-40a6-812e-48d60fb80283, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 198.244.232.39}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 20, server: content-provider4.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: shefelnak, sni: content-provider4.cdn-delivery.akamaicd.com, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(油管:破解资源君) 21, server: 198.41.212.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 22, server: 141.193.213.20, port: 443, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sshkit/1736960111/63859b5b38f53/, ws-headers: {Host: sg1-v2ray.sshkit.org}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 23, server: suzhihan.eu.org, port: 443, type: vmess, uuid: 0b873cff-11ab-4716-c41a-04f886135091, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /roewesu, ws-headers: {Host: suzhihan.eu.org}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 24, server: 85.208.108.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 欧洲(油管:破解资源君) 25, server: 203.30.191.191, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 26, server: 165.227.175.88, port: 28164, type: vmess, uuid: eba8ccf5-5ab9-4b6b-de4b-83ab920c1005, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 165.227.175.88}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 27, server: 23.227.38.38, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 28, server: 190.93.244.200, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 29, server: 141.101.114.120, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg1.cfcdn3.xyz}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 30, server: 51.77.158.169, port: 2096, type: vmess, uuid: c92fd902-b5d3-4208-bb48-630b1c7babea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 51.77.158.169}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 31, server: 198.41.212.155, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /VHONOFZ3, ws-headers: {Host: lg1.cfcdn2.xyz}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 32, server: do2.yyhm9.com, port: 443, type: vmess, uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /das212, ws-headers: {Host: do2.yyhm9.com}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 33, server: 85.208.108.60, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 欧洲(油管:破解资源君) 34, server: 203.30.188.188, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 35, server: 141.101.115.100, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /VHONOFZ3, ws-headers: {Host: lg1.cfcdn2.xyz}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 36, server: 198.41.203.1, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /VHONOFZ3, ws-headers: {Host: lg1.cfcdn2.xyz}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 37, server: 85.208.108.60, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 欧洲(油管:破解资源君) 38, server: 23.227.38.39, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 39, server: 68.183.83.94, port: 59477, type: vmess, uuid: b8f6a71c-6925-4e84-fb93-6e54f8d98b25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 68.183.83.94}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 40, server: 190.93.244.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 41, server: 23.227.38.100, port: 443, type: vmess, uuid: 7b1b2fa3-e361-48cc-b73d-2c9636c76f4b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /UMW36262, ws-headers: {Host: v2ray1.zhujicn2.org}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 42, server: 203.30.191.193, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 43, server: 190.93.245.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 44, server: 198.41.212.123, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 45, server: 141.101.114.32, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 46, server: 165.227.175.88, port: 28164, type: vmess, uuid: eba8ccf5-5ab9-4b6b-de4b-83ab920c1005, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 165.227.175.88}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 47, server: 141.101.114.134, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 48, server: 185.143.233.213, port: 80, type: vmess, uuid: 2e7fefd8-0a92-4a5a-9769-7e90418deaa1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 77.zirogame-5.site}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 49, server: 203.24.108.8, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 50, server: 5.255.112.158, port: 19182, type: vmess, uuid: 8f11ba8c-a72b-47df-a783-2490205ff10f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.255.112.158}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 51, server: 185.162.228.229, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 52, server: 85.208.108.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(油管:破解资源君) 53, server: 190.93.246.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: 欧洲(油管:破解资源君) 54, server: 185.162.228.229, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
+  - {name: 美国(油管:破解资源君2.0), server: 141.101.114.30, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: 美国(油管:破解资源君2.0) 2, server: 141.101.115.100, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /VHONOFZ3, ws-headers: {Host: lg1.cfcdn2.xyz}, udp: true}
+  - {name: 美国(油管:破解资源君2.0) 3, server: 203.24.108.10, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: 美国(油管:破解资源君2.0) 4, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: sg-gcore.sharecentre.online}, udp: true}
+  - {name: 美国(油管:破解资源君2.0) 5, server: 141.101.115.32, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: 美国(油管:破解资源君2.0) 6, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lvryzenkvm1gb.sharecentre.online}, udp: true}
+  - {name: 美国(油管:破解资源君2.0) 7, server: 203.30.189.191, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: 美国(油管:破解资源君2.0) 8, server: 190.93.245.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: 美国(油管:破解资源君2.0) 9, server: 188.114.99.11, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: 美国(油管:破解资源君2.0) 10, server: 23.227.38.40, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: 美国(油管:破解资源君2.0) 11, server: sg-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/Ertusg86/635014638c264/, ws-headers: {Host: zoom.us}, udp: true}
+  - {name: 美国(油管:破解资源君), server: 129.150.44.64, port: 46075, type: vmess, uuid: da257e73-f02b-45ab-9916-7baf154c47a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jhndsmlanj11223, ws-headers: {Host: 129.150.44.64}, udp: true}
+  - {name: 美国(油管:破解资源君) 2, server: 172.67.199.34, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/1736960111/63859bc177a33/, ws-headers: {Host: sg3-v2ray.sshkit.org}, udp: true}
+  - {name: 美国(油管:破解资源君) 3, server: 141.193.213.20, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
+  - {name: 美国(油管:破解资源君) 4, server: 162.159.128.7, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg1.cfcdn3.xyz}, udp: true}
+  - {name: 美国(油管:破解资源君) 5, server: cfhk.oppo.quest, port: 80, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shares, ws-headers: {Host: la.awsbest.com}, udp: true}
+  - {name: 美国(油管:破解资源君) 6, server: 15.204.31.63, port: 80, type: vmess, uuid: 54e5b550-9eb2-455b-9aa4-0123a68e0b21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: 15.204.31.63}, udp: true}
+  - {name: 美国(油管:破解资源君) 7, server: 172.67.198.165, port: 443, type: vmess, uuid: 6a69acd2-ffe1-44eb-c51c-1afc049c7541, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /myblog, ws-headers: {Host: vfly6.xyz}, udp: true}
+  - {name: 美国(油管:破解资源君) 8, server: 203.30.189.190, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: 美国(油管:破解资源君) 9, server: 172.67.199.34, port: 443, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shares, ws-headers: {Host: la.awsbest.com}, udp: true}
+  - {name: 美国(油管:破解资源君) 10, server: 15.204.31.63, port: 80, type: vmess, uuid: 54e5b550-9eb2-455b-9aa4-0123a68e0b21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: 15.204.31.63}, udp: true}
+  - {name: 美国(油管:破解资源君) 11, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk.sharecentre.online}, udp: true}
+  - {name: 美国(油管:破解资源君) 12, server: xjp4h.mayaa.ml, port: 443, type: vmess, uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dsadsa1dsadsa33434, ws-headers: {Host: xjp4h.mayaa.ml}, udp: true}
+  - {name: 美国(油管:破解资源君) 13, server: 15.204.31.63, port: 80, type: vmess, uuid: 46073112-cde6-44ad-b5df-f3b9ef90b047, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: 15.204.31.63}, udp: true}
+  - {name: 美国(油管:破解资源君) 14, server: 198.41.203.6, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
+  - {name: 美国(油管:破解资源君) 15, server: 172.64.163.172, port: 8880, type: vmess, uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hkaa0, ws-headers: {Host: sg1021.hkaa0.tk}, udp: true}
+  - {name: 美国(油管:破解资源君) 16, server: 203.30.188.189, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: 美国(油管:破解资源君) 17, server: 141.193.213.10, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
+  - {name: 美国(油管:破解资源君) 18, server: sg-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/Ertusg86/635014638c264/, ws-headers: {Host: sg-lb.vhax.net}, udp: true}
+  - {name: 美国(油管:破解资源君) 19, server: 198.41.203.5, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
+  - {name: 美国(油管:破解资源君) 20, server: 141.193.213.20, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
+  - {name: 美国(油管:破解资源君) 21, server: 198.41.212.122, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
+  - {name: 美国(油管:破解资源君) 22, server: 162.159.128.7, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: 美国(油管:破解资源君) 23, server: 188.114.99.10, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: 美国(油管:破解资源君) 24, server: 172.67.199.34, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: 美国(油管:破解资源君) 25, server: 15.235.147.186, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/Ertusg86/635014638c264/, ws-headers: {Host: 15.235.147.186}, udp: true}
+  - {name: 美国(油管:破解资源君) 26, server: v12a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /nl-unlimitxxx, ws-headers: {Host: v12a.toddns.tk}, udp: true}
+  - {name: 美国(油管:破解资源君) 27, server: 15.235.147.186, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/Ertusg86/635014638c264/, ws-headers: {Host: 15.235.147.186}, udp: true}
+  - {name: 美国(油管:破解资源君) 28, server: 162.159.135.42, port: 80, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shares, ws-headers: {Host: la.awsbest.com}, udp: true}
+  - {name: 美国(油管:破解资源君) 29, server: 172.67.199.34, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
+  - {name: 美国(油管:破解资源君) 30, server: 172.67.199.34, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sshkit/Variu88/634dab7abadf1/, ws-headers: {Host: us-lb.sshkit.org}, udp: true}
+  - {name: 美国(油管:破解资源君) 31, server: 172.67.199.34, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcoresgnode, ws-headers: {Host: gcoresg.sylu.cyou}, udp: true}
+  - {name: 美国(油管:破解资源君) 32, server: v12a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /nl-unlimitxxx, ws-headers: {Host: v12a.toddns.tk}, udp: true}
+  - {name: 美国(油管:破解资源君) 33, server: 172.67.199.34, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/fdfadsfa/63848bfe228fd/, ws-headers: {Host: us-lb.sshkit.org}, udp: true}
+  - {name: 美国(油管:破解资源君) 34, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: sg-gcore.sharecentre.online}, udp: true}
+  - {name: 美国(油管:破解资源君) 35, server: v47a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v47-unlimitndxd, ws-headers: {Host: v47a.toddns.tk}, udp: true}
+  - {name: 美国(油管:破解资源君) 36, server: uicdn.cf, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/fdfadsfa/63848bfe228fd/, ws-headers: {Host: us-lb.sshkit.org}, udp: true}
+  - {name: 美国(油管:破解资源君) 37, server: 198.244.232.39, port: 2096, type: vmess, uuid: df46384b-1ad5-40a6-812e-48d60fb80283, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 198.244.232.39}, udp: true}
+  - {name: 美国(油管:破解资源君) 38, server: uicdn.cf, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/1736960111/63859bc177a33/, ws-headers: {Host: sg3-v2ray.sshkit.org}, udp: true}
+  - {name: 美国(油管:破解资源君) 39, server: 172.67.199.34, port: 443, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sshkit/1736960111/63859bc177a33/, ws-headers: {Host: sg3-v2ray.sshkit.org}, udp: true}
+  - {name: 美国(油管:破解资源君) 40, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lvryzenkvm1gb.sharecentre.online}, udp: true}
+  - {name: 美国(油管:破解资源君) 41, server: news.microsoft.com, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg1.cfcdn3.xyz}, udp: true}
+  - {name: 美国(油管:破解资源君) 42, server: news.microsoft.com, port: 443, type: vmess, uuid: 615a1285-5848-42a1-9859-d4cb37b1fbd8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /share, ws-headers: {Host: us.awsbest.com}, udp: true}
+  - {name: 美国(油管:破解资源君) 43, server: 162.159.128.7, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
+  - {name: 美国(油管:破解资源君) 44, server: www.digitalocean.com, port: 8080, type: vmess, uuid: 59502b4c-6a17-4f65-a1cc-682f0179cec1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: ssrsub.v01.asuka.buzz}, udp: true}
+  - {name: 美国(油管:破解资源君) 45, server: 198.244.232.39, port: 2096, type: vmess, uuid: df46384b-1ad5-40a6-812e-48d60fb80283, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 198.244.232.39}, udp: true}
+  - {name: 美国(油管:破解资源君) 46, server: 172.67.199.34, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sshkit/fdfadsfa/63848bfe228fd/, ws-headers: {Host: us-lb.sshkit.org}, udp: true}
+  - {name: 俄罗斯(油管:破解资源君), server: v10a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fr-unlimitxxx, ws-headers: {Host: v10a.toddns.tk}, udp: true}
+  - {name: 俄罗斯(油管:破解资源君) 2, server: 203.30.188.190, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: 俄罗斯(油管:破解资源君) 3, server: 190.93.246.195, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
+  - {name: 俄罗斯(油管:破解资源君) 4, server: 203.30.190.192, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: 俄罗斯(油管:破解资源君) 5, server: 203.30.188.120, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
+  - {name: 俄罗斯(油管:破解资源君) 6, server: 45.136.244.181, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fr-unlimitxxx, ws-headers: {Host: 45.136.244.181}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 20
-      - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 欧洲(欢迎订阅Youtube破解资源君) 22
-      - 欧洲(欢迎订阅Youtube破解资源君) 23
-      - 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 欧洲(欢迎订阅Youtube破解资源君) 27
-      - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 欧洲(欢迎订阅Youtube破解资源君) 29
-      - 欧洲(欢迎订阅Youtube破解资源君) 30
-      - 欧洲(欢迎订阅Youtube破解资源君) 31
-      - 欧洲(欢迎订阅Youtube破解资源君) 32
-      - 欧洲(欢迎订阅Youtube破解资源君) 33
-      - 欧洲(欢迎订阅Youtube破解资源君) 34
-      - 欧洲(欢迎订阅Youtube破解资源君) 35
-      - 欧洲(欢迎订阅Youtube破解资源君) 36
-      - 欧洲(欢迎订阅Youtube破解资源君) 37
-      - 欧洲(欢迎订阅Youtube破解资源君) 38
-      - 欧洲(欢迎订阅Youtube破解资源君) 39
-      - 欧洲(欢迎订阅Youtube破解资源君) 40
-      - 欧洲(欢迎订阅Youtube破解资源君) 41
-      - 欧洲(欢迎订阅Youtube破解资源君) 42
-      - 欧洲(欢迎订阅Youtube破解资源君) 43
-      - 欧洲(欢迎订阅Youtube破解资源君) 44
-      - 欧洲(欢迎订阅Youtube破解资源君) 45
-      - 欧洲(欢迎订阅Youtube破解资源君) 46
-      - 欧洲(欢迎订阅Youtube破解资源君) 47
-      - 欧洲(欢迎订阅Youtube破解资源君) 48
-      - 欧洲(欢迎订阅Youtube破解资源君) 49
-      - 欧洲(欢迎订阅Youtube破解资源君) 50
-      - 欧洲(欢迎订阅Youtube破解资源君) 51
-      - 欧洲(欢迎订阅Youtube破解资源君) 52
-      - 欧洲(欢迎订阅Youtube破解资源君) 53
-      - 欧洲(欢迎订阅Youtube破解资源君) 54
-      - 欧洲(欢迎订阅Youtube破解资源君) 55
-      - 欧洲(欢迎订阅Youtube破解资源君) 56
-      - 欧洲(欢迎订阅Youtube破解资源君) 57
-      - 欧洲(欢迎订阅Youtube破解资源君) 58
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 7
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 8
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 9
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 10
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 11
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 12
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 13
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 14
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 15
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 16
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 17
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 18
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 19
+      - 亚洲(油管:破解资源君)
+      - 亚洲(油管:破解资源君) 2
+      - 亚洲(油管:破解资源君) 3
+      - 亚洲(油管:破解资源君) 4
+      - 亚洲(油管:破解资源君) 5
+      - 亚洲(油管:破解资源君) 6
+      - 亚洲(油管:破解资源君) 7
+      - 亚洲(油管:破解资源君) 8
+      - 新加坡(油管:破解资源君)
+      - 新加坡(油管:破解资源君) 2
+      - 新加坡(油管:破解资源君) 3
+      - 新加坡(油管:破解资源君) 4
+      - 香港(油管:破解资源君)
+      - 香港(油管:破解资源君) 2
+      - 日本(油管:破解资源君)
+      - 日本(油管:破解资源君) 2
+      - 日本(油管:破解资源君) 3
+      - 日本(油管:破解资源君) 4
+      - 欧洲(油管:破解资源君2.0)
+      - 欧洲(油管:破解资源君2.0) 2
+      - 欧洲(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0) 4
+      - 欧洲(油管:破解资源君2.0) 5
+      - 欧洲(油管:破解资源君2.0) 6
+      - 欧洲(油管:破解资源君2.0) 7
+      - 欧洲(油管:破解资源君2.0) 8
+      - 欧洲(油管:破解资源君2.0) 9
+      - 欧洲(油管:破解资源君)
+      - 欧洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 3
+      - 欧洲(油管:破解资源君) 4
+      - 欧洲(油管:破解资源君) 5
+      - 欧洲(油管:破解资源君) 6
+      - 欧洲(油管:破解资源君) 7
+      - 欧洲(油管:破解资源君) 8
+      - 欧洲(油管:破解资源君) 9
+      - 欧洲(油管:破解资源君) 10
+      - 欧洲(油管:破解资源君) 11
+      - 欧洲(油管:破解资源君) 12
+      - 欧洲(油管:破解资源君) 13
+      - 欧洲(油管:破解资源君) 14
+      - 欧洲(油管:破解资源君) 15
+      - 欧洲(油管:破解资源君) 16
+      - 欧洲(油管:破解资源君) 17
+      - 欧洲(油管:破解资源君) 18
+      - 欧洲(油管:破解资源君) 19
+      - 欧洲(油管:破解资源君) 20
+      - 欧洲(油管:破解资源君) 21
+      - 欧洲(油管:破解资源君) 22
+      - 欧洲(油管:破解资源君) 23
+      - 欧洲(油管:破解资源君) 24
+      - 欧洲(油管:破解资源君) 25
+      - 欧洲(油管:破解资源君) 26
+      - 欧洲(油管:破解资源君) 27
+      - 欧洲(油管:破解资源君) 28
+      - 欧洲(油管:破解资源君) 29
+      - 欧洲(油管:破解资源君) 30
+      - 欧洲(油管:破解资源君) 31
+      - 欧洲(油管:破解资源君) 32
+      - 欧洲(油管:破解资源君) 33
+      - 欧洲(油管:破解资源君) 34
+      - 欧洲(油管:破解资源君) 35
+      - 欧洲(油管:破解资源君) 36
+      - 欧洲(油管:破解资源君) 37
+      - 欧洲(油管:破解资源君) 38
+      - 欧洲(油管:破解资源君) 39
+      - 欧洲(油管:破解资源君) 40
+      - 欧洲(油管:破解资源君) 41
+      - 欧洲(油管:破解资源君) 42
+      - 欧洲(油管:破解资源君) 43
+      - 欧洲(油管:破解资源君) 44
+      - 欧洲(油管:破解资源君) 45
+      - 欧洲(油管:破解资源君) 46
+      - 欧洲(油管:破解资源君) 47
+      - 欧洲(油管:破解资源君) 48
+      - 欧洲(油管:破解资源君) 49
+      - 欧洲(油管:破解资源君) 50
+      - 欧洲(油管:破解资源君) 51
+      - 欧洲(油管:破解资源君) 52
+      - 欧洲(油管:破解资源君) 53
+      - 欧洲(油管:破解资源君) 54
+      - 美国(油管:破解资源君2.0)
+      - 美国(油管:破解资源君2.0) 2
+      - 美国(油管:破解资源君2.0) 3
+      - 美国(油管:破解资源君2.0) 4
+      - 美国(油管:破解资源君2.0) 5
+      - 美国(油管:破解资源君2.0) 6
+      - 美国(油管:破解资源君2.0) 7
+      - 美国(油管:破解资源君2.0) 8
+      - 美国(油管:破解资源君2.0) 9
+      - 美国(油管:破解资源君2.0) 10
+      - 美国(油管:破解资源君2.0) 11
+      - 美国(油管:破解资源君)
+      - 美国(油管:破解资源君) 2
+      - 美国(油管:破解资源君) 3
+      - 美国(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 5
+      - 美国(油管:破解资源君) 6
+      - 美国(油管:破解资源君) 7
+      - 美国(油管:破解资源君) 8
+      - 美国(油管:破解资源君) 9
+      - 美国(油管:破解资源君) 10
+      - 美国(油管:破解资源君) 11
+      - 美国(油管:破解资源君) 12
+      - 美国(油管:破解资源君) 13
+      - 美国(油管:破解资源君) 14
+      - 美国(油管:破解资源君) 15
+      - 美国(油管:破解资源君) 16
+      - 美国(油管:破解资源君) 17
+      - 美国(油管:破解资源君) 18
+      - 美国(油管:破解资源君) 19
+      - 美国(油管:破解资源君) 20
+      - 美国(油管:破解资源君) 21
+      - 美国(油管:破解资源君) 22
+      - 美国(油管:破解资源君) 23
+      - 美国(油管:破解资源君) 24
+      - 美国(油管:破解资源君) 25
+      - 美国(油管:破解资源君) 26
+      - 美国(油管:破解资源君) 27
+      - 美国(油管:破解资源君) 28
+      - 美国(油管:破解资源君) 29
+      - 美国(油管:破解资源君) 30
+      - 美国(油管:破解资源君) 31
+      - 美国(油管:破解资源君) 32
+      - 美国(油管:破解资源君) 33
+      - 美国(油管:破解资源君) 34
+      - 美国(油管:破解资源君) 35
+      - 美国(油管:破解资源君) 36
+      - 美国(油管:破解资源君) 37
+      - 美国(油管:破解资源君) 38
+      - 美国(油管:破解资源君) 39
+      - 美国(油管:破解资源君) 40
+      - 美国(油管:破解资源君) 41
+      - 美国(油管:破解资源君) 42
+      - 美国(油管:破解资源君) 43
+      - 美国(油管:破解资源君) 44
+      - 美国(油管:破解资源君) 45
+      - 美国(油管:破解资源君) 46
+      - 俄罗斯(油管:破解资源君)
+      - 俄罗斯(油管:破解资源君) 2
+      - 俄罗斯(油管:破解资源君) 3
+      - 俄罗斯(油管:破解资源君) 4
+      - 俄罗斯(油管:破解资源君) 5
+      - 俄罗斯(油管:破解资源君) 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 20
-      - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 欧洲(欢迎订阅Youtube破解资源君) 22
-      - 欧洲(欢迎订阅Youtube破解资源君) 23
-      - 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 欧洲(欢迎订阅Youtube破解资源君) 27
-      - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 欧洲(欢迎订阅Youtube破解资源君) 29
-      - 欧洲(欢迎订阅Youtube破解资源君) 30
-      - 欧洲(欢迎订阅Youtube破解资源君) 31
-      - 欧洲(欢迎订阅Youtube破解资源君) 32
-      - 欧洲(欢迎订阅Youtube破解资源君) 33
-      - 欧洲(欢迎订阅Youtube破解资源君) 34
-      - 欧洲(欢迎订阅Youtube破解资源君) 35
-      - 欧洲(欢迎订阅Youtube破解资源君) 36
-      - 欧洲(欢迎订阅Youtube破解资源君) 37
-      - 欧洲(欢迎订阅Youtube破解资源君) 38
-      - 欧洲(欢迎订阅Youtube破解资源君) 39
-      - 欧洲(欢迎订阅Youtube破解资源君) 40
-      - 欧洲(欢迎订阅Youtube破解资源君) 41
-      - 欧洲(欢迎订阅Youtube破解资源君) 42
-      - 欧洲(欢迎订阅Youtube破解资源君) 43
-      - 欧洲(欢迎订阅Youtube破解资源君) 44
-      - 欧洲(欢迎订阅Youtube破解资源君) 45
-      - 欧洲(欢迎订阅Youtube破解资源君) 46
-      - 欧洲(欢迎订阅Youtube破解资源君) 47
-      - 欧洲(欢迎订阅Youtube破解资源君) 48
-      - 欧洲(欢迎订阅Youtube破解资源君) 49
-      - 欧洲(欢迎订阅Youtube破解资源君) 50
-      - 欧洲(欢迎订阅Youtube破解资源君) 51
-      - 欧洲(欢迎订阅Youtube破解资源君) 52
-      - 欧洲(欢迎订阅Youtube破解资源君) 53
-      - 欧洲(欢迎订阅Youtube破解资源君) 54
-      - 欧洲(欢迎订阅Youtube破解资源君) 55
-      - 欧洲(欢迎订阅Youtube破解资源君) 56
-      - 欧洲(欢迎订阅Youtube破解资源君) 57
-      - 欧洲(欢迎订阅Youtube破解资源君) 58
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 7
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 8
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 9
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 10
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 11
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 12
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 13
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 14
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 15
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 16
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 17
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 18
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 19
+      - 亚洲(油管:破解资源君)
+      - 亚洲(油管:破解资源君) 2
+      - 亚洲(油管:破解资源君) 3
+      - 亚洲(油管:破解资源君) 4
+      - 亚洲(油管:破解资源君) 5
+      - 亚洲(油管:破解资源君) 6
+      - 亚洲(油管:破解资源君) 7
+      - 亚洲(油管:破解资源君) 8
+      - 新加坡(油管:破解资源君)
+      - 新加坡(油管:破解资源君) 2
+      - 新加坡(油管:破解资源君) 3
+      - 新加坡(油管:破解资源君) 4
+      - 香港(油管:破解资源君)
+      - 香港(油管:破解资源君) 2
+      - 日本(油管:破解资源君)
+      - 日本(油管:破解资源君) 2
+      - 日本(油管:破解资源君) 3
+      - 日本(油管:破解资源君) 4
+      - 欧洲(油管:破解资源君2.0)
+      - 欧洲(油管:破解资源君2.0) 2
+      - 欧洲(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0) 4
+      - 欧洲(油管:破解资源君2.0) 5
+      - 欧洲(油管:破解资源君2.0) 6
+      - 欧洲(油管:破解资源君2.0) 7
+      - 欧洲(油管:破解资源君2.0) 8
+      - 欧洲(油管:破解资源君2.0) 9
+      - 欧洲(油管:破解资源君)
+      - 欧洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 3
+      - 欧洲(油管:破解资源君) 4
+      - 欧洲(油管:破解资源君) 5
+      - 欧洲(油管:破解资源君) 6
+      - 欧洲(油管:破解资源君) 7
+      - 欧洲(油管:破解资源君) 8
+      - 欧洲(油管:破解资源君) 9
+      - 欧洲(油管:破解资源君) 10
+      - 欧洲(油管:破解资源君) 11
+      - 欧洲(油管:破解资源君) 12
+      - 欧洲(油管:破解资源君) 13
+      - 欧洲(油管:破解资源君) 14
+      - 欧洲(油管:破解资源君) 15
+      - 欧洲(油管:破解资源君) 16
+      - 欧洲(油管:破解资源君) 17
+      - 欧洲(油管:破解资源君) 18
+      - 欧洲(油管:破解资源君) 19
+      - 欧洲(油管:破解资源君) 20
+      - 欧洲(油管:破解资源君) 21
+      - 欧洲(油管:破解资源君) 22
+      - 欧洲(油管:破解资源君) 23
+      - 欧洲(油管:破解资源君) 24
+      - 欧洲(油管:破解资源君) 25
+      - 欧洲(油管:破解资源君) 26
+      - 欧洲(油管:破解资源君) 27
+      - 欧洲(油管:破解资源君) 28
+      - 欧洲(油管:破解资源君) 29
+      - 欧洲(油管:破解资源君) 30
+      - 欧洲(油管:破解资源君) 31
+      - 欧洲(油管:破解资源君) 32
+      - 欧洲(油管:破解资源君) 33
+      - 欧洲(油管:破解资源君) 34
+      - 欧洲(油管:破解资源君) 35
+      - 欧洲(油管:破解资源君) 36
+      - 欧洲(油管:破解资源君) 37
+      - 欧洲(油管:破解资源君) 38
+      - 欧洲(油管:破解资源君) 39
+      - 欧洲(油管:破解资源君) 40
+      - 欧洲(油管:破解资源君) 41
+      - 欧洲(油管:破解资源君) 42
+      - 欧洲(油管:破解资源君) 43
+      - 欧洲(油管:破解资源君) 44
+      - 欧洲(油管:破解资源君) 45
+      - 欧洲(油管:破解资源君) 46
+      - 欧洲(油管:破解资源君) 47
+      - 欧洲(油管:破解资源君) 48
+      - 欧洲(油管:破解资源君) 49
+      - 欧洲(油管:破解资源君) 50
+      - 欧洲(油管:破解资源君) 51
+      - 欧洲(油管:破解资源君) 52
+      - 欧洲(油管:破解资源君) 53
+      - 欧洲(油管:破解资源君) 54
+      - 美国(油管:破解资源君2.0)
+      - 美国(油管:破解资源君2.0) 2
+      - 美国(油管:破解资源君2.0) 3
+      - 美国(油管:破解资源君2.0) 4
+      - 美国(油管:破解资源君2.0) 5
+      - 美国(油管:破解资源君2.0) 6
+      - 美国(油管:破解资源君2.0) 7
+      - 美国(油管:破解资源君2.0) 8
+      - 美国(油管:破解资源君2.0) 9
+      - 美国(油管:破解资源君2.0) 10
+      - 美国(油管:破解资源君2.0) 11
+      - 美国(油管:破解资源君)
+      - 美国(油管:破解资源君) 2
+      - 美国(油管:破解资源君) 3
+      - 美国(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 5
+      - 美国(油管:破解资源君) 6
+      - 美国(油管:破解资源君) 7
+      - 美国(油管:破解资源君) 8
+      - 美国(油管:破解资源君) 9
+      - 美国(油管:破解资源君) 10
+      - 美国(油管:破解资源君) 11
+      - 美国(油管:破解资源君) 12
+      - 美国(油管:破解资源君) 13
+      - 美国(油管:破解资源君) 14
+      - 美国(油管:破解资源君) 15
+      - 美国(油管:破解资源君) 16
+      - 美国(油管:破解资源君) 17
+      - 美国(油管:破解资源君) 18
+      - 美国(油管:破解资源君) 19
+      - 美国(油管:破解资源君) 20
+      - 美国(油管:破解资源君) 21
+      - 美国(油管:破解资源君) 22
+      - 美国(油管:破解资源君) 23
+      - 美国(油管:破解资源君) 24
+      - 美国(油管:破解资源君) 25
+      - 美国(油管:破解资源君) 26
+      - 美国(油管:破解资源君) 27
+      - 美国(油管:破解资源君) 28
+      - 美国(油管:破解资源君) 29
+      - 美国(油管:破解资源君) 30
+      - 美国(油管:破解资源君) 31
+      - 美国(油管:破解资源君) 32
+      - 美国(油管:破解资源君) 33
+      - 美国(油管:破解资源君) 34
+      - 美国(油管:破解资源君) 35
+      - 美国(油管:破解资源君) 36
+      - 美国(油管:破解资源君) 37
+      - 美国(油管:破解资源君) 38
+      - 美国(油管:破解资源君) 39
+      - 美国(油管:破解资源君) 40
+      - 美国(油管:破解资源君) 41
+      - 美国(油管:破解资源君) 42
+      - 美国(油管:破解资源君) 43
+      - 美国(油管:破解资源君) 44
+      - 美国(油管:破解资源君) 45
+      - 美国(油管:破解资源君) 46
+      - 俄罗斯(油管:破解资源君)
+      - 俄罗斯(油管:破解资源君) 2
+      - 俄罗斯(油管:破解资源君) 3
+      - 俄罗斯(油管:破解资源君) 4
+      - 俄罗斯(油管:破解资源君) 5
+      - 俄罗斯(油管:破解资源君) 6
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 20
-      - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 欧洲(欢迎订阅Youtube破解资源君) 22
-      - 欧洲(欢迎订阅Youtube破解资源君) 23
-      - 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 欧洲(欢迎订阅Youtube破解资源君) 27
-      - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 欧洲(欢迎订阅Youtube破解资源君) 29
-      - 欧洲(欢迎订阅Youtube破解资源君) 30
-      - 欧洲(欢迎订阅Youtube破解资源君) 31
-      - 欧洲(欢迎订阅Youtube破解资源君) 32
-      - 欧洲(欢迎订阅Youtube破解资源君) 33
-      - 欧洲(欢迎订阅Youtube破解资源君) 34
-      - 欧洲(欢迎订阅Youtube破解资源君) 35
-      - 欧洲(欢迎订阅Youtube破解资源君) 36
-      - 欧洲(欢迎订阅Youtube破解资源君) 37
-      - 欧洲(欢迎订阅Youtube破解资源君) 38
-      - 欧洲(欢迎订阅Youtube破解资源君) 39
-      - 欧洲(欢迎订阅Youtube破解资源君) 40
-      - 欧洲(欢迎订阅Youtube破解资源君) 41
-      - 欧洲(欢迎订阅Youtube破解资源君) 42
-      - 欧洲(欢迎订阅Youtube破解资源君) 43
-      - 欧洲(欢迎订阅Youtube破解资源君) 44
-      - 欧洲(欢迎订阅Youtube破解资源君) 45
-      - 欧洲(欢迎订阅Youtube破解资源君) 46
-      - 欧洲(欢迎订阅Youtube破解资源君) 47
-      - 欧洲(欢迎订阅Youtube破解资源君) 48
-      - 欧洲(欢迎订阅Youtube破解资源君) 49
-      - 欧洲(欢迎订阅Youtube破解资源君) 50
-      - 欧洲(欢迎订阅Youtube破解资源君) 51
-      - 欧洲(欢迎订阅Youtube破解资源君) 52
-      - 欧洲(欢迎订阅Youtube破解资源君) 53
-      - 欧洲(欢迎订阅Youtube破解资源君) 54
-      - 欧洲(欢迎订阅Youtube破解资源君) 55
-      - 欧洲(欢迎订阅Youtube破解资源君) 56
-      - 欧洲(欢迎订阅Youtube破解资源君) 57
-      - 欧洲(欢迎订阅Youtube破解资源君) 58
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 7
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 8
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 9
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 10
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 11
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 12
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 13
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 14
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 15
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 16
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 17
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 18
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 19
+      - 亚洲(油管:破解资源君)
+      - 亚洲(油管:破解资源君) 2
+      - 亚洲(油管:破解资源君) 3
+      - 亚洲(油管:破解资源君) 4
+      - 亚洲(油管:破解资源君) 5
+      - 亚洲(油管:破解资源君) 6
+      - 亚洲(油管:破解资源君) 7
+      - 亚洲(油管:破解资源君) 8
+      - 新加坡(油管:破解资源君)
+      - 新加坡(油管:破解资源君) 2
+      - 新加坡(油管:破解资源君) 3
+      - 新加坡(油管:破解资源君) 4
+      - 香港(油管:破解资源君)
+      - 香港(油管:破解资源君) 2
+      - 日本(油管:破解资源君)
+      - 日本(油管:破解资源君) 2
+      - 日本(油管:破解资源君) 3
+      - 日本(油管:破解资源君) 4
+      - 欧洲(油管:破解资源君2.0)
+      - 欧洲(油管:破解资源君2.0) 2
+      - 欧洲(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0) 4
+      - 欧洲(油管:破解资源君2.0) 5
+      - 欧洲(油管:破解资源君2.0) 6
+      - 欧洲(油管:破解资源君2.0) 7
+      - 欧洲(油管:破解资源君2.0) 8
+      - 欧洲(油管:破解资源君2.0) 9
+      - 欧洲(油管:破解资源君)
+      - 欧洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 3
+      - 欧洲(油管:破解资源君) 4
+      - 欧洲(油管:破解资源君) 5
+      - 欧洲(油管:破解资源君) 6
+      - 欧洲(油管:破解资源君) 7
+      - 欧洲(油管:破解资源君) 8
+      - 欧洲(油管:破解资源君) 9
+      - 欧洲(油管:破解资源君) 10
+      - 欧洲(油管:破解资源君) 11
+      - 欧洲(油管:破解资源君) 12
+      - 欧洲(油管:破解资源君) 13
+      - 欧洲(油管:破解资源君) 14
+      - 欧洲(油管:破解资源君) 15
+      - 欧洲(油管:破解资源君) 16
+      - 欧洲(油管:破解资源君) 17
+      - 欧洲(油管:破解资源君) 18
+      - 欧洲(油管:破解资源君) 19
+      - 欧洲(油管:破解资源君) 20
+      - 欧洲(油管:破解资源君) 21
+      - 欧洲(油管:破解资源君) 22
+      - 欧洲(油管:破解资源君) 23
+      - 欧洲(油管:破解资源君) 24
+      - 欧洲(油管:破解资源君) 25
+      - 欧洲(油管:破解资源君) 26
+      - 欧洲(油管:破解资源君) 27
+      - 欧洲(油管:破解资源君) 28
+      - 欧洲(油管:破解资源君) 29
+      - 欧洲(油管:破解资源君) 30
+      - 欧洲(油管:破解资源君) 31
+      - 欧洲(油管:破解资源君) 32
+      - 欧洲(油管:破解资源君) 33
+      - 欧洲(油管:破解资源君) 34
+      - 欧洲(油管:破解资源君) 35
+      - 欧洲(油管:破解资源君) 36
+      - 欧洲(油管:破解资源君) 37
+      - 欧洲(油管:破解资源君) 38
+      - 欧洲(油管:破解资源君) 39
+      - 欧洲(油管:破解资源君) 40
+      - 欧洲(油管:破解资源君) 41
+      - 欧洲(油管:破解资源君) 42
+      - 欧洲(油管:破解资源君) 43
+      - 欧洲(油管:破解资源君) 44
+      - 欧洲(油管:破解资源君) 45
+      - 欧洲(油管:破解资源君) 46
+      - 欧洲(油管:破解资源君) 47
+      - 欧洲(油管:破解资源君) 48
+      - 欧洲(油管:破解资源君) 49
+      - 欧洲(油管:破解资源君) 50
+      - 欧洲(油管:破解资源君) 51
+      - 欧洲(油管:破解资源君) 52
+      - 欧洲(油管:破解资源君) 53
+      - 欧洲(油管:破解资源君) 54
+      - 美国(油管:破解资源君2.0)
+      - 美国(油管:破解资源君2.0) 2
+      - 美国(油管:破解资源君2.0) 3
+      - 美国(油管:破解资源君2.0) 4
+      - 美国(油管:破解资源君2.0) 5
+      - 美国(油管:破解资源君2.0) 6
+      - 美国(油管:破解资源君2.0) 7
+      - 美国(油管:破解资源君2.0) 8
+      - 美国(油管:破解资源君2.0) 9
+      - 美国(油管:破解资源君2.0) 10
+      - 美国(油管:破解资源君2.0) 11
+      - 美国(油管:破解资源君)
+      - 美国(油管:破解资源君) 2
+      - 美国(油管:破解资源君) 3
+      - 美国(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 5
+      - 美国(油管:破解资源君) 6
+      - 美国(油管:破解资源君) 7
+      - 美国(油管:破解资源君) 8
+      - 美国(油管:破解资源君) 9
+      - 美国(油管:破解资源君) 10
+      - 美国(油管:破解资源君) 11
+      - 美国(油管:破解资源君) 12
+      - 美国(油管:破解资源君) 13
+      - 美国(油管:破解资源君) 14
+      - 美国(油管:破解资源君) 15
+      - 美国(油管:破解资源君) 16
+      - 美国(油管:破解资源君) 17
+      - 美国(油管:破解资源君) 18
+      - 美国(油管:破解资源君) 19
+      - 美国(油管:破解资源君) 20
+      - 美国(油管:破解资源君) 21
+      - 美国(油管:破解资源君) 22
+      - 美国(油管:破解资源君) 23
+      - 美国(油管:破解资源君) 24
+      - 美国(油管:破解资源君) 25
+      - 美国(油管:破解资源君) 26
+      - 美国(油管:破解资源君) 27
+      - 美国(油管:破解资源君) 28
+      - 美国(油管:破解资源君) 29
+      - 美国(油管:破解资源君) 30
+      - 美国(油管:破解资源君) 31
+      - 美国(油管:破解资源君) 32
+      - 美国(油管:破解资源君) 33
+      - 美国(油管:破解资源君) 34
+      - 美国(油管:破解资源君) 35
+      - 美国(油管:破解资源君) 36
+      - 美国(油管:破解资源君) 37
+      - 美国(油管:破解资源君) 38
+      - 美国(油管:破解资源君) 39
+      - 美国(油管:破解资源君) 40
+      - 美国(油管:破解资源君) 41
+      - 美国(油管:破解资源君) 42
+      - 美国(油管:破解资源君) 43
+      - 美国(油管:破解资源君) 44
+      - 美国(油管:破解资源君) 45
+      - 美国(油管:破解资源君) 46
+      - 俄罗斯(油管:破解资源君)
+      - 俄罗斯(油管:破解资源君) 2
+      - 俄罗斯(油管:破解资源君) 3
+      - 俄罗斯(油管:破解资源君) 4
+      - 俄罗斯(油管:破解资源君) 5
+      - 俄罗斯(油管:破解资源君) 6
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -364,354 +616,605 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 20
-      - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 欧洲(欢迎订阅Youtube破解资源君) 22
-      - 欧洲(欢迎订阅Youtube破解资源君) 23
-      - 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 欧洲(欢迎订阅Youtube破解资源君) 27
-      - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 欧洲(欢迎订阅Youtube破解资源君) 29
-      - 欧洲(欢迎订阅Youtube破解资源君) 30
-      - 欧洲(欢迎订阅Youtube破解资源君) 31
-      - 欧洲(欢迎订阅Youtube破解资源君) 32
-      - 欧洲(欢迎订阅Youtube破解资源君) 33
-      - 欧洲(欢迎订阅Youtube破解资源君) 34
-      - 欧洲(欢迎订阅Youtube破解资源君) 35
-      - 欧洲(欢迎订阅Youtube破解资源君) 36
-      - 欧洲(欢迎订阅Youtube破解资源君) 37
-      - 欧洲(欢迎订阅Youtube破解资源君) 38
-      - 欧洲(欢迎订阅Youtube破解资源君) 39
-      - 欧洲(欢迎订阅Youtube破解资源君) 40
-      - 欧洲(欢迎订阅Youtube破解资源君) 41
-      - 欧洲(欢迎订阅Youtube破解资源君) 42
-      - 欧洲(欢迎订阅Youtube破解资源君) 43
-      - 欧洲(欢迎订阅Youtube破解资源君) 44
-      - 欧洲(欢迎订阅Youtube破解资源君) 45
-      - 欧洲(欢迎订阅Youtube破解资源君) 46
-      - 欧洲(欢迎订阅Youtube破解资源君) 47
-      - 欧洲(欢迎订阅Youtube破解资源君) 48
-      - 欧洲(欢迎订阅Youtube破解资源君) 49
-      - 欧洲(欢迎订阅Youtube破解资源君) 50
-      - 欧洲(欢迎订阅Youtube破解资源君) 51
-      - 欧洲(欢迎订阅Youtube破解资源君) 52
-      - 欧洲(欢迎订阅Youtube破解资源君) 53
-      - 欧洲(欢迎订阅Youtube破解资源君) 54
-      - 欧洲(欢迎订阅Youtube破解资源君) 55
-      - 欧洲(欢迎订阅Youtube破解资源君) 56
-      - 欧洲(欢迎订阅Youtube破解资源君) 57
-      - 欧洲(欢迎订阅Youtube破解资源君) 58
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 7
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 8
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 9
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 10
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 11
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 12
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 13
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 14
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 15
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 16
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 17
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 18
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 19
+      - 亚洲(油管:破解资源君)
+      - 亚洲(油管:破解资源君) 2
+      - 亚洲(油管:破解资源君) 3
+      - 亚洲(油管:破解资源君) 4
+      - 亚洲(油管:破解资源君) 5
+      - 亚洲(油管:破解资源君) 6
+      - 亚洲(油管:破解资源君) 7
+      - 亚洲(油管:破解资源君) 8
+      - 新加坡(油管:破解资源君)
+      - 新加坡(油管:破解资源君) 2
+      - 新加坡(油管:破解资源君) 3
+      - 新加坡(油管:破解资源君) 4
+      - 香港(油管:破解资源君)
+      - 香港(油管:破解资源君) 2
+      - 日本(油管:破解资源君)
+      - 日本(油管:破解资源君) 2
+      - 日本(油管:破解资源君) 3
+      - 日本(油管:破解资源君) 4
+      - 欧洲(油管:破解资源君2.0)
+      - 欧洲(油管:破解资源君2.0) 2
+      - 欧洲(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0) 4
+      - 欧洲(油管:破解资源君2.0) 5
+      - 欧洲(油管:破解资源君2.0) 6
+      - 欧洲(油管:破解资源君2.0) 7
+      - 欧洲(油管:破解资源君2.0) 8
+      - 欧洲(油管:破解资源君2.0) 9
+      - 欧洲(油管:破解资源君)
+      - 欧洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 3
+      - 欧洲(油管:破解资源君) 4
+      - 欧洲(油管:破解资源君) 5
+      - 欧洲(油管:破解资源君) 6
+      - 欧洲(油管:破解资源君) 7
+      - 欧洲(油管:破解资源君) 8
+      - 欧洲(油管:破解资源君) 9
+      - 欧洲(油管:破解资源君) 10
+      - 欧洲(油管:破解资源君) 11
+      - 欧洲(油管:破解资源君) 12
+      - 欧洲(油管:破解资源君) 13
+      - 欧洲(油管:破解资源君) 14
+      - 欧洲(油管:破解资源君) 15
+      - 欧洲(油管:破解资源君) 16
+      - 欧洲(油管:破解资源君) 17
+      - 欧洲(油管:破解资源君) 18
+      - 欧洲(油管:破解资源君) 19
+      - 欧洲(油管:破解资源君) 20
+      - 欧洲(油管:破解资源君) 21
+      - 欧洲(油管:破解资源君) 22
+      - 欧洲(油管:破解资源君) 23
+      - 欧洲(油管:破解资源君) 24
+      - 欧洲(油管:破解资源君) 25
+      - 欧洲(油管:破解资源君) 26
+      - 欧洲(油管:破解资源君) 27
+      - 欧洲(油管:破解资源君) 28
+      - 欧洲(油管:破解资源君) 29
+      - 欧洲(油管:破解资源君) 30
+      - 欧洲(油管:破解资源君) 31
+      - 欧洲(油管:破解资源君) 32
+      - 欧洲(油管:破解资源君) 33
+      - 欧洲(油管:破解资源君) 34
+      - 欧洲(油管:破解资源君) 35
+      - 欧洲(油管:破解资源君) 36
+      - 欧洲(油管:破解资源君) 37
+      - 欧洲(油管:破解资源君) 38
+      - 欧洲(油管:破解资源君) 39
+      - 欧洲(油管:破解资源君) 40
+      - 欧洲(油管:破解资源君) 41
+      - 欧洲(油管:破解资源君) 42
+      - 欧洲(油管:破解资源君) 43
+      - 欧洲(油管:破解资源君) 44
+      - 欧洲(油管:破解资源君) 45
+      - 欧洲(油管:破解资源君) 46
+      - 欧洲(油管:破解资源君) 47
+      - 欧洲(油管:破解资源君) 48
+      - 欧洲(油管:破解资源君) 49
+      - 欧洲(油管:破解资源君) 50
+      - 欧洲(油管:破解资源君) 51
+      - 欧洲(油管:破解资源君) 52
+      - 欧洲(油管:破解资源君) 53
+      - 欧洲(油管:破解资源君) 54
+      - 美国(油管:破解资源君2.0)
+      - 美国(油管:破解资源君2.0) 2
+      - 美国(油管:破解资源君2.0) 3
+      - 美国(油管:破解资源君2.0) 4
+      - 美国(油管:破解资源君2.0) 5
+      - 美国(油管:破解资源君2.0) 6
+      - 美国(油管:破解资源君2.0) 7
+      - 美国(油管:破解资源君2.0) 8
+      - 美国(油管:破解资源君2.0) 9
+      - 美国(油管:破解资源君2.0) 10
+      - 美国(油管:破解资源君2.0) 11
+      - 美国(油管:破解资源君)
+      - 美国(油管:破解资源君) 2
+      - 美国(油管:破解资源君) 3
+      - 美国(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 5
+      - 美国(油管:破解资源君) 6
+      - 美国(油管:破解资源君) 7
+      - 美国(油管:破解资源君) 8
+      - 美国(油管:破解资源君) 9
+      - 美国(油管:破解资源君) 10
+      - 美国(油管:破解资源君) 11
+      - 美国(油管:破解资源君) 12
+      - 美国(油管:破解资源君) 13
+      - 美国(油管:破解资源君) 14
+      - 美国(油管:破解资源君) 15
+      - 美国(油管:破解资源君) 16
+      - 美国(油管:破解资源君) 17
+      - 美国(油管:破解资源君) 18
+      - 美国(油管:破解资源君) 19
+      - 美国(油管:破解资源君) 20
+      - 美国(油管:破解资源君) 21
+      - 美国(油管:破解资源君) 22
+      - 美国(油管:破解资源君) 23
+      - 美国(油管:破解资源君) 24
+      - 美国(油管:破解资源君) 25
+      - 美国(油管:破解资源君) 26
+      - 美国(油管:破解资源君) 27
+      - 美国(油管:破解资源君) 28
+      - 美国(油管:破解资源君) 29
+      - 美国(油管:破解资源君) 30
+      - 美国(油管:破解资源君) 31
+      - 美国(油管:破解资源君) 32
+      - 美国(油管:破解资源君) 33
+      - 美国(油管:破解资源君) 34
+      - 美国(油管:破解资源君) 35
+      - 美国(油管:破解资源君) 36
+      - 美国(油管:破解资源君) 37
+      - 美国(油管:破解资源君) 38
+      - 美国(油管:破解资源君) 39
+      - 美国(油管:破解资源君) 40
+      - 美国(油管:破解资源君) 41
+      - 美国(油管:破解资源君) 42
+      - 美国(油管:破解资源君) 43
+      - 美国(油管:破解资源君) 44
+      - 美国(油管:破解资源君) 45
+      - 美国(油管:破解资源君) 46
+      - 俄罗斯(油管:破解资源君)
+      - 俄罗斯(油管:破解资源君) 2
+      - 俄罗斯(油管:破解资源君) 3
+      - 俄罗斯(油管:破解资源君) 4
+      - 俄罗斯(油管:破解资源君) 5
+      - 俄罗斯(油管:破解资源君) 6
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 2
+      - 香港(油管:破解资源君)
+      - 香港(油管:破解资源君) 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 20
-      - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 欧洲(欢迎订阅Youtube破解资源君) 22
-      - 欧洲(欢迎订阅Youtube破解资源君) 23
-      - 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 欧洲(欢迎订阅Youtube破解资源君) 27
-      - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 欧洲(欢迎订阅Youtube破解资源君) 29
-      - 欧洲(欢迎订阅Youtube破解资源君) 30
-      - 欧洲(欢迎订阅Youtube破解资源君) 31
-      - 欧洲(欢迎订阅Youtube破解资源君) 32
-      - 欧洲(欢迎订阅Youtube破解资源君) 33
-      - 欧洲(欢迎订阅Youtube破解资源君) 34
-      - 欧洲(欢迎订阅Youtube破解资源君) 35
-      - 欧洲(欢迎订阅Youtube破解资源君) 36
-      - 欧洲(欢迎订阅Youtube破解资源君) 37
-      - 欧洲(欢迎订阅Youtube破解资源君) 38
-      - 欧洲(欢迎订阅Youtube破解资源君) 39
-      - 欧洲(欢迎订阅Youtube破解资源君) 40
-      - 欧洲(欢迎订阅Youtube破解资源君) 41
-      - 欧洲(欢迎订阅Youtube破解资源君) 42
-      - 欧洲(欢迎订阅Youtube破解资源君) 43
-      - 欧洲(欢迎订阅Youtube破解资源君) 44
-      - 欧洲(欢迎订阅Youtube破解资源君) 45
-      - 欧洲(欢迎订阅Youtube破解资源君) 46
-      - 欧洲(欢迎订阅Youtube破解资源君) 47
-      - 欧洲(欢迎订阅Youtube破解资源君) 48
-      - 欧洲(欢迎订阅Youtube破解资源君) 49
-      - 欧洲(欢迎订阅Youtube破解资源君) 50
-      - 欧洲(欢迎订阅Youtube破解资源君) 51
-      - 欧洲(欢迎订阅Youtube破解资源君) 52
-      - 欧洲(欢迎订阅Youtube破解资源君) 53
-      - 欧洲(欢迎订阅Youtube破解资源君) 54
-      - 欧洲(欢迎订阅Youtube破解资源君) 55
-      - 欧洲(欢迎订阅Youtube破解资源君) 56
-      - 欧洲(欢迎订阅Youtube破解资源君) 57
-      - 欧洲(欢迎订阅Youtube破解资源君) 58
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 7
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 8
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 9
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 10
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 11
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 12
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 13
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 14
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 15
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 16
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 17
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 18
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 19
+      - 亚洲(油管:破解资源君)
+      - 亚洲(油管:破解资源君) 2
+      - 亚洲(油管:破解资源君) 3
+      - 亚洲(油管:破解资源君) 4
+      - 亚洲(油管:破解资源君) 5
+      - 亚洲(油管:破解资源君) 6
+      - 亚洲(油管:破解资源君) 7
+      - 亚洲(油管:破解资源君) 8
+      - 新加坡(油管:破解资源君)
+      - 新加坡(油管:破解资源君) 2
+      - 新加坡(油管:破解资源君) 3
+      - 新加坡(油管:破解资源君) 4
+      - 香港(油管:破解资源君)
+      - 香港(油管:破解资源君) 2
+      - 日本(油管:破解资源君)
+      - 日本(油管:破解资源君) 2
+      - 日本(油管:破解资源君) 3
+      - 日本(油管:破解资源君) 4
+      - 欧洲(油管:破解资源君2.0)
+      - 欧洲(油管:破解资源君2.0) 2
+      - 欧洲(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0) 4
+      - 欧洲(油管:破解资源君2.0) 5
+      - 欧洲(油管:破解资源君2.0) 6
+      - 欧洲(油管:破解资源君2.0) 7
+      - 欧洲(油管:破解资源君2.0) 8
+      - 欧洲(油管:破解资源君2.0) 9
+      - 欧洲(油管:破解资源君)
+      - 欧洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 3
+      - 欧洲(油管:破解资源君) 4
+      - 欧洲(油管:破解资源君) 5
+      - 欧洲(油管:破解资源君) 6
+      - 欧洲(油管:破解资源君) 7
+      - 欧洲(油管:破解资源君) 8
+      - 欧洲(油管:破解资源君) 9
+      - 欧洲(油管:破解资源君) 10
+      - 欧洲(油管:破解资源君) 11
+      - 欧洲(油管:破解资源君) 12
+      - 欧洲(油管:破解资源君) 13
+      - 欧洲(油管:破解资源君) 14
+      - 欧洲(油管:破解资源君) 15
+      - 欧洲(油管:破解资源君) 16
+      - 欧洲(油管:破解资源君) 17
+      - 欧洲(油管:破解资源君) 18
+      - 欧洲(油管:破解资源君) 19
+      - 欧洲(油管:破解资源君) 20
+      - 欧洲(油管:破解资源君) 21
+      - 欧洲(油管:破解资源君) 22
+      - 欧洲(油管:破解资源君) 23
+      - 欧洲(油管:破解资源君) 24
+      - 欧洲(油管:破解资源君) 25
+      - 欧洲(油管:破解资源君) 26
+      - 欧洲(油管:破解资源君) 27
+      - 欧洲(油管:破解资源君) 28
+      - 欧洲(油管:破解资源君) 29
+      - 欧洲(油管:破解资源君) 30
+      - 欧洲(油管:破解资源君) 31
+      - 欧洲(油管:破解资源君) 32
+      - 欧洲(油管:破解资源君) 33
+      - 欧洲(油管:破解资源君) 34
+      - 欧洲(油管:破解资源君) 35
+      - 欧洲(油管:破解资源君) 36
+      - 欧洲(油管:破解资源君) 37
+      - 欧洲(油管:破解资源君) 38
+      - 欧洲(油管:破解资源君) 39
+      - 欧洲(油管:破解资源君) 40
+      - 欧洲(油管:破解资源君) 41
+      - 欧洲(油管:破解资源君) 42
+      - 欧洲(油管:破解资源君) 43
+      - 欧洲(油管:破解资源君) 44
+      - 欧洲(油管:破解资源君) 45
+      - 欧洲(油管:破解资源君) 46
+      - 欧洲(油管:破解资源君) 47
+      - 欧洲(油管:破解资源君) 48
+      - 欧洲(油管:破解资源君) 49
+      - 欧洲(油管:破解资源君) 50
+      - 欧洲(油管:破解资源君) 51
+      - 欧洲(油管:破解资源君) 52
+      - 欧洲(油管:破解资源君) 53
+      - 欧洲(油管:破解资源君) 54
+      - 美国(油管:破解资源君2.0)
+      - 美国(油管:破解资源君2.0) 2
+      - 美国(油管:破解资源君2.0) 3
+      - 美国(油管:破解资源君2.0) 4
+      - 美国(油管:破解资源君2.0) 5
+      - 美国(油管:破解资源君2.0) 6
+      - 美国(油管:破解资源君2.0) 7
+      - 美国(油管:破解资源君2.0) 8
+      - 美国(油管:破解资源君2.0) 9
+      - 美国(油管:破解资源君2.0) 10
+      - 美国(油管:破解资源君2.0) 11
+      - 美国(油管:破解资源君)
+      - 美国(油管:破解资源君) 2
+      - 美国(油管:破解资源君) 3
+      - 美国(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 5
+      - 美国(油管:破解资源君) 6
+      - 美国(油管:破解资源君) 7
+      - 美国(油管:破解资源君) 8
+      - 美国(油管:破解资源君) 9
+      - 美国(油管:破解资源君) 10
+      - 美国(油管:破解资源君) 11
+      - 美国(油管:破解资源君) 12
+      - 美国(油管:破解资源君) 13
+      - 美国(油管:破解资源君) 14
+      - 美国(油管:破解资源君) 15
+      - 美国(油管:破解资源君) 16
+      - 美国(油管:破解资源君) 17
+      - 美国(油管:破解资源君) 18
+      - 美国(油管:破解资源君) 19
+      - 美国(油管:破解资源君) 20
+      - 美国(油管:破解资源君) 21
+      - 美国(油管:破解资源君) 22
+      - 美国(油管:破解资源君) 23
+      - 美国(油管:破解资源君) 24
+      - 美国(油管:破解资源君) 25
+      - 美国(油管:破解资源君) 26
+      - 美国(油管:破解资源君) 27
+      - 美国(油管:破解资源君) 28
+      - 美国(油管:破解资源君) 29
+      - 美国(油管:破解资源君) 30
+      - 美国(油管:破解资源君) 31
+      - 美国(油管:破解资源君) 32
+      - 美国(油管:破解资源君) 33
+      - 美国(油管:破解资源君) 34
+      - 美国(油管:破解资源君) 35
+      - 美国(油管:破解资源君) 36
+      - 美国(油管:破解资源君) 37
+      - 美国(油管:破解资源君) 38
+      - 美国(油管:破解资源君) 39
+      - 美国(油管:破解资源君) 40
+      - 美国(油管:破解资源君) 41
+      - 美国(油管:破解资源君) 42
+      - 美国(油管:破解资源君) 43
+      - 美国(油管:破解资源君) 44
+      - 美国(油管:破解资源君) 45
+      - 美国(油管:破解资源君) 46
+      - 俄罗斯(油管:破解资源君)
+      - 俄罗斯(油管:破解资源君) 2
+      - 俄罗斯(油管:破解资源君) 3
+      - 俄罗斯(油管:破解资源君) 4
+      - 俄罗斯(油管:破解资源君) 5
+      - 俄罗斯(油管:破解资源君) 6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 20
-      - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 欧洲(欢迎订阅Youtube破解资源君) 22
-      - 欧洲(欢迎订阅Youtube破解资源君) 23
-      - 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 欧洲(欢迎订阅Youtube破解资源君) 27
-      - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 欧洲(欢迎订阅Youtube破解资源君) 29
-      - 欧洲(欢迎订阅Youtube破解资源君) 30
-      - 欧洲(欢迎订阅Youtube破解资源君) 31
-      - 欧洲(欢迎订阅Youtube破解资源君) 32
-      - 欧洲(欢迎订阅Youtube破解资源君) 33
-      - 欧洲(欢迎订阅Youtube破解资源君) 34
-      - 欧洲(欢迎订阅Youtube破解资源君) 35
-      - 欧洲(欢迎订阅Youtube破解资源君) 36
-      - 欧洲(欢迎订阅Youtube破解资源君) 37
-      - 欧洲(欢迎订阅Youtube破解资源君) 38
-      - 欧洲(欢迎订阅Youtube破解资源君) 39
-      - 欧洲(欢迎订阅Youtube破解资源君) 40
-      - 欧洲(欢迎订阅Youtube破解资源君) 41
-      - 欧洲(欢迎订阅Youtube破解资源君) 42
-      - 欧洲(欢迎订阅Youtube破解资源君) 43
-      - 欧洲(欢迎订阅Youtube破解资源君) 44
-      - 欧洲(欢迎订阅Youtube破解资源君) 45
-      - 欧洲(欢迎订阅Youtube破解资源君) 46
-      - 欧洲(欢迎订阅Youtube破解资源君) 47
-      - 欧洲(欢迎订阅Youtube破解资源君) 48
-      - 欧洲(欢迎订阅Youtube破解资源君) 49
-      - 欧洲(欢迎订阅Youtube破解资源君) 50
-      - 欧洲(欢迎订阅Youtube破解资源君) 51
-      - 欧洲(欢迎订阅Youtube破解资源君) 52
-      - 欧洲(欢迎订阅Youtube破解资源君) 53
-      - 欧洲(欢迎订阅Youtube破解资源君) 54
-      - 欧洲(欢迎订阅Youtube破解资源君) 55
-      - 欧洲(欢迎订阅Youtube破解资源君) 56
-      - 欧洲(欢迎订阅Youtube破解资源君) 57
-      - 欧洲(欢迎订阅Youtube破解资源君) 58
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 7
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 8
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 9
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 10
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 11
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 12
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 13
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 14
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 15
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 16
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 17
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 18
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 19
+      - 亚洲(油管:破解资源君)
+      - 亚洲(油管:破解资源君) 2
+      - 亚洲(油管:破解资源君) 3
+      - 亚洲(油管:破解资源君) 4
+      - 亚洲(油管:破解资源君) 5
+      - 亚洲(油管:破解资源君) 6
+      - 亚洲(油管:破解资源君) 7
+      - 亚洲(油管:破解资源君) 8
+      - 新加坡(油管:破解资源君)
+      - 新加坡(油管:破解资源君) 2
+      - 新加坡(油管:破解资源君) 3
+      - 新加坡(油管:破解资源君) 4
+      - 香港(油管:破解资源君)
+      - 香港(油管:破解资源君) 2
+      - 日本(油管:破解资源君)
+      - 日本(油管:破解资源君) 2
+      - 日本(油管:破解资源君) 3
+      - 日本(油管:破解资源君) 4
+      - 欧洲(油管:破解资源君2.0)
+      - 欧洲(油管:破解资源君2.0) 2
+      - 欧洲(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0) 4
+      - 欧洲(油管:破解资源君2.0) 5
+      - 欧洲(油管:破解资源君2.0) 6
+      - 欧洲(油管:破解资源君2.0) 7
+      - 欧洲(油管:破解资源君2.0) 8
+      - 欧洲(油管:破解资源君2.0) 9
+      - 欧洲(油管:破解资源君)
+      - 欧洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 3
+      - 欧洲(油管:破解资源君) 4
+      - 欧洲(油管:破解资源君) 5
+      - 欧洲(油管:破解资源君) 6
+      - 欧洲(油管:破解资源君) 7
+      - 欧洲(油管:破解资源君) 8
+      - 欧洲(油管:破解资源君) 9
+      - 欧洲(油管:破解资源君) 10
+      - 欧洲(油管:破解资源君) 11
+      - 欧洲(油管:破解资源君) 12
+      - 欧洲(油管:破解资源君) 13
+      - 欧洲(油管:破解资源君) 14
+      - 欧洲(油管:破解资源君) 15
+      - 欧洲(油管:破解资源君) 16
+      - 欧洲(油管:破解资源君) 17
+      - 欧洲(油管:破解资源君) 18
+      - 欧洲(油管:破解资源君) 19
+      - 欧洲(油管:破解资源君) 20
+      - 欧洲(油管:破解资源君) 21
+      - 欧洲(油管:破解资源君) 22
+      - 欧洲(油管:破解资源君) 23
+      - 欧洲(油管:破解资源君) 24
+      - 欧洲(油管:破解资源君) 25
+      - 欧洲(油管:破解资源君) 26
+      - 欧洲(油管:破解资源君) 27
+      - 欧洲(油管:破解资源君) 28
+      - 欧洲(油管:破解资源君) 29
+      - 欧洲(油管:破解资源君) 30
+      - 欧洲(油管:破解资源君) 31
+      - 欧洲(油管:破解资源君) 32
+      - 欧洲(油管:破解资源君) 33
+      - 欧洲(油管:破解资源君) 34
+      - 欧洲(油管:破解资源君) 35
+      - 欧洲(油管:破解资源君) 36
+      - 欧洲(油管:破解资源君) 37
+      - 欧洲(油管:破解资源君) 38
+      - 欧洲(油管:破解资源君) 39
+      - 欧洲(油管:破解资源君) 40
+      - 欧洲(油管:破解资源君) 41
+      - 欧洲(油管:破解资源君) 42
+      - 欧洲(油管:破解资源君) 43
+      - 欧洲(油管:破解资源君) 44
+      - 欧洲(油管:破解资源君) 45
+      - 欧洲(油管:破解资源君) 46
+      - 欧洲(油管:破解资源君) 47
+      - 欧洲(油管:破解资源君) 48
+      - 欧洲(油管:破解资源君) 49
+      - 欧洲(油管:破解资源君) 50
+      - 欧洲(油管:破解资源君) 51
+      - 欧洲(油管:破解资源君) 52
+      - 欧洲(油管:破解资源君) 53
+      - 欧洲(油管:破解资源君) 54
+      - 美国(油管:破解资源君2.0)
+      - 美国(油管:破解资源君2.0) 2
+      - 美国(油管:破解资源君2.0) 3
+      - 美国(油管:破解资源君2.0) 4
+      - 美国(油管:破解资源君2.0) 5
+      - 美国(油管:破解资源君2.0) 6
+      - 美国(油管:破解资源君2.0) 7
+      - 美国(油管:破解资源君2.0) 8
+      - 美国(油管:破解资源君2.0) 9
+      - 美国(油管:破解资源君2.0) 10
+      - 美国(油管:破解资源君2.0) 11
+      - 美国(油管:破解资源君)
+      - 美国(油管:破解资源君) 2
+      - 美国(油管:破解资源君) 3
+      - 美国(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 5
+      - 美国(油管:破解资源君) 6
+      - 美国(油管:破解资源君) 7
+      - 美国(油管:破解资源君) 8
+      - 美国(油管:破解资源君) 9
+      - 美国(油管:破解资源君) 10
+      - 美国(油管:破解资源君) 11
+      - 美国(油管:破解资源君) 12
+      - 美国(油管:破解资源君) 13
+      - 美国(油管:破解资源君) 14
+      - 美国(油管:破解资源君) 15
+      - 美国(油管:破解资源君) 16
+      - 美国(油管:破解资源君) 17
+      - 美国(油管:破解资源君) 18
+      - 美国(油管:破解资源君) 19
+      - 美国(油管:破解资源君) 20
+      - 美国(油管:破解资源君) 21
+      - 美国(油管:破解资源君) 22
+      - 美国(油管:破解资源君) 23
+      - 美国(油管:破解资源君) 24
+      - 美国(油管:破解资源君) 25
+      - 美国(油管:破解资源君) 26
+      - 美国(油管:破解资源君) 27
+      - 美国(油管:破解资源君) 28
+      - 美国(油管:破解资源君) 29
+      - 美国(油管:破解资源君) 30
+      - 美国(油管:破解资源君) 31
+      - 美国(油管:破解资源君) 32
+      - 美国(油管:破解资源君) 33
+      - 美国(油管:破解资源君) 34
+      - 美国(油管:破解资源君) 35
+      - 美国(油管:破解资源君) 36
+      - 美国(油管:破解资源君) 37
+      - 美国(油管:破解资源君) 38
+      - 美国(油管:破解资源君) 39
+      - 美国(油管:破解资源君) 40
+      - 美国(油管:破解资源君) 41
+      - 美国(油管:破解资源君) 42
+      - 美国(油管:破解资源君) 43
+      - 美国(油管:破解资源君) 44
+      - 美国(油管:破解资源君) 45
+      - 美国(油管:破解资源君) 46
+      - 俄罗斯(油管:破解资源君)
+      - 俄罗斯(油管:破解资源君) 2
+      - 俄罗斯(油管:破解资源君) 3
+      - 俄罗斯(油管:破解资源君) 4
+      - 俄罗斯(油管:破解资源君) 5
+      - 俄罗斯(油管:破解资源君) 6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 20
-      - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 欧洲(欢迎订阅Youtube破解资源君) 22
-      - 欧洲(欢迎订阅Youtube破解资源君) 23
-      - 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 欧洲(欢迎订阅Youtube破解资源君) 27
-      - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 欧洲(欢迎订阅Youtube破解资源君) 29
-      - 欧洲(欢迎订阅Youtube破解资源君) 30
-      - 欧洲(欢迎订阅Youtube破解资源君) 31
-      - 欧洲(欢迎订阅Youtube破解资源君) 32
-      - 欧洲(欢迎订阅Youtube破解资源君) 33
-      - 欧洲(欢迎订阅Youtube破解资源君) 34
-      - 欧洲(欢迎订阅Youtube破解资源君) 35
-      - 欧洲(欢迎订阅Youtube破解资源君) 36
-      - 欧洲(欢迎订阅Youtube破解资源君) 37
-      - 欧洲(欢迎订阅Youtube破解资源君) 38
-      - 欧洲(欢迎订阅Youtube破解资源君) 39
-      - 欧洲(欢迎订阅Youtube破解资源君) 40
-      - 欧洲(欢迎订阅Youtube破解资源君) 41
-      - 欧洲(欢迎订阅Youtube破解资源君) 42
-      - 欧洲(欢迎订阅Youtube破解资源君) 43
-      - 欧洲(欢迎订阅Youtube破解资源君) 44
-      - 欧洲(欢迎订阅Youtube破解资源君) 45
-      - 欧洲(欢迎订阅Youtube破解资源君) 46
-      - 欧洲(欢迎订阅Youtube破解资源君) 47
-      - 欧洲(欢迎订阅Youtube破解资源君) 48
-      - 欧洲(欢迎订阅Youtube破解资源君) 49
-      - 欧洲(欢迎订阅Youtube破解资源君) 50
-      - 欧洲(欢迎订阅Youtube破解资源君) 51
-      - 欧洲(欢迎订阅Youtube破解资源君) 52
-      - 欧洲(欢迎订阅Youtube破解资源君) 53
-      - 欧洲(欢迎订阅Youtube破解资源君) 54
-      - 欧洲(欢迎订阅Youtube破解资源君) 55
-      - 欧洲(欢迎订阅Youtube破解资源君) 56
-      - 欧洲(欢迎订阅Youtube破解资源君) 57
-      - 欧洲(欢迎订阅Youtube破解资源君) 58
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 7
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 8
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 9
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 10
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 11
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 12
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 13
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 14
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 15
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 16
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 17
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 18
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 19
+      - 亚洲(油管:破解资源君)
+      - 亚洲(油管:破解资源君) 2
+      - 亚洲(油管:破解资源君) 3
+      - 亚洲(油管:破解资源君) 4
+      - 亚洲(油管:破解资源君) 5
+      - 亚洲(油管:破解资源君) 6
+      - 亚洲(油管:破解资源君) 7
+      - 亚洲(油管:破解资源君) 8
+      - 新加坡(油管:破解资源君)
+      - 新加坡(油管:破解资源君) 2
+      - 新加坡(油管:破解资源君) 3
+      - 新加坡(油管:破解资源君) 4
+      - 香港(油管:破解资源君)
+      - 香港(油管:破解资源君) 2
+      - 日本(油管:破解资源君)
+      - 日本(油管:破解资源君) 2
+      - 日本(油管:破解资源君) 3
+      - 日本(油管:破解资源君) 4
+      - 欧洲(油管:破解资源君2.0)
+      - 欧洲(油管:破解资源君2.0) 2
+      - 欧洲(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0) 4
+      - 欧洲(油管:破解资源君2.0) 5
+      - 欧洲(油管:破解资源君2.0) 6
+      - 欧洲(油管:破解资源君2.0) 7
+      - 欧洲(油管:破解资源君2.0) 8
+      - 欧洲(油管:破解资源君2.0) 9
+      - 欧洲(油管:破解资源君)
+      - 欧洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 3
+      - 欧洲(油管:破解资源君) 4
+      - 欧洲(油管:破解资源君) 5
+      - 欧洲(油管:破解资源君) 6
+      - 欧洲(油管:破解资源君) 7
+      - 欧洲(油管:破解资源君) 8
+      - 欧洲(油管:破解资源君) 9
+      - 欧洲(油管:破解资源君) 10
+      - 欧洲(油管:破解资源君) 11
+      - 欧洲(油管:破解资源君) 12
+      - 欧洲(油管:破解资源君) 13
+      - 欧洲(油管:破解资源君) 14
+      - 欧洲(油管:破解资源君) 15
+      - 欧洲(油管:破解资源君) 16
+      - 欧洲(油管:破解资源君) 17
+      - 欧洲(油管:破解资源君) 18
+      - 欧洲(油管:破解资源君) 19
+      - 欧洲(油管:破解资源君) 20
+      - 欧洲(油管:破解资源君) 21
+      - 欧洲(油管:破解资源君) 22
+      - 欧洲(油管:破解资源君) 23
+      - 欧洲(油管:破解资源君) 24
+      - 欧洲(油管:破解资源君) 25
+      - 欧洲(油管:破解资源君) 26
+      - 欧洲(油管:破解资源君) 27
+      - 欧洲(油管:破解资源君) 28
+      - 欧洲(油管:破解资源君) 29
+      - 欧洲(油管:破解资源君) 30
+      - 欧洲(油管:破解资源君) 31
+      - 欧洲(油管:破解资源君) 32
+      - 欧洲(油管:破解资源君) 33
+      - 欧洲(油管:破解资源君) 34
+      - 欧洲(油管:破解资源君) 35
+      - 欧洲(油管:破解资源君) 36
+      - 欧洲(油管:破解资源君) 37
+      - 欧洲(油管:破解资源君) 38
+      - 欧洲(油管:破解资源君) 39
+      - 欧洲(油管:破解资源君) 40
+      - 欧洲(油管:破解资源君) 41
+      - 欧洲(油管:破解资源君) 42
+      - 欧洲(油管:破解资源君) 43
+      - 欧洲(油管:破解资源君) 44
+      - 欧洲(油管:破解资源君) 45
+      - 欧洲(油管:破解资源君) 46
+      - 欧洲(油管:破解资源君) 47
+      - 欧洲(油管:破解资源君) 48
+      - 欧洲(油管:破解资源君) 49
+      - 欧洲(油管:破解资源君) 50
+      - 欧洲(油管:破解资源君) 51
+      - 欧洲(油管:破解资源君) 52
+      - 欧洲(油管:破解资源君) 53
+      - 欧洲(油管:破解资源君) 54
+      - 美国(油管:破解资源君2.0)
+      - 美国(油管:破解资源君2.0) 2
+      - 美国(油管:破解资源君2.0) 3
+      - 美国(油管:破解资源君2.0) 4
+      - 美国(油管:破解资源君2.0) 5
+      - 美国(油管:破解资源君2.0) 6
+      - 美国(油管:破解资源君2.0) 7
+      - 美国(油管:破解资源君2.0) 8
+      - 美国(油管:破解资源君2.0) 9
+      - 美国(油管:破解资源君2.0) 10
+      - 美国(油管:破解资源君2.0) 11
+      - 美国(油管:破解资源君)
+      - 美国(油管:破解资源君) 2
+      - 美国(油管:破解资源君) 3
+      - 美国(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 5
+      - 美国(油管:破解资源君) 6
+      - 美国(油管:破解资源君) 7
+      - 美国(油管:破解资源君) 8
+      - 美国(油管:破解资源君) 9
+      - 美国(油管:破解资源君) 10
+      - 美国(油管:破解资源君) 11
+      - 美国(油管:破解资源君) 12
+      - 美国(油管:破解资源君) 13
+      - 美国(油管:破解资源君) 14
+      - 美国(油管:破解资源君) 15
+      - 美国(油管:破解资源君) 16
+      - 美国(油管:破解资源君) 17
+      - 美国(油管:破解资源君) 18
+      - 美国(油管:破解资源君) 19
+      - 美国(油管:破解资源君) 20
+      - 美国(油管:破解资源君) 21
+      - 美国(油管:破解资源君) 22
+      - 美国(油管:破解资源君) 23
+      - 美国(油管:破解资源君) 24
+      - 美国(油管:破解资源君) 25
+      - 美国(油管:破解资源君) 26
+      - 美国(油管:破解资源君) 27
+      - 美国(油管:破解资源君) 28
+      - 美国(油管:破解资源君) 29
+      - 美国(油管:破解资源君) 30
+      - 美国(油管:破解资源君) 31
+      - 美国(油管:破解资源君) 32
+      - 美国(油管:破解资源君) 33
+      - 美国(油管:破解资源君) 34
+      - 美国(油管:破解资源君) 35
+      - 美国(油管:破解资源君) 36
+      - 美国(油管:破解资源君) 37
+      - 美国(油管:破解资源君) 38
+      - 美国(油管:破解资源君) 39
+      - 美国(油管:破解资源君) 40
+      - 美国(油管:破解资源君) 41
+      - 美国(油管:破解资源君) 42
+      - 美国(油管:破解资源君) 43
+      - 美国(油管:破解资源君) 44
+      - 美国(油管:破解资源君) 45
+      - 美国(油管:破解资源君) 46
+      - 俄罗斯(油管:破解资源君)
+      - 俄罗斯(油管:破解资源君) 2
+      - 俄罗斯(油管:破解资源君) 3
+      - 俄罗斯(油管:破解资源君) 4
+      - 俄罗斯(油管:破解资源君) 5
+      - 俄罗斯(油管:破解资源君) 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -727,87 +1230,150 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 20
-      - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 欧洲(欢迎订阅Youtube破解资源君) 22
-      - 欧洲(欢迎订阅Youtube破解资源君) 23
-      - 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 欧洲(欢迎订阅Youtube破解资源君) 27
-      - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 欧洲(欢迎订阅Youtube破解资源君) 29
-      - 欧洲(欢迎订阅Youtube破解资源君) 30
-      - 欧洲(欢迎订阅Youtube破解资源君) 31
-      - 欧洲(欢迎订阅Youtube破解资源君) 32
-      - 欧洲(欢迎订阅Youtube破解资源君) 33
-      - 欧洲(欢迎订阅Youtube破解资源君) 34
-      - 欧洲(欢迎订阅Youtube破解资源君) 35
-      - 欧洲(欢迎订阅Youtube破解资源君) 36
-      - 欧洲(欢迎订阅Youtube破解资源君) 37
-      - 欧洲(欢迎订阅Youtube破解资源君) 38
-      - 欧洲(欢迎订阅Youtube破解资源君) 39
-      - 欧洲(欢迎订阅Youtube破解资源君) 40
-      - 欧洲(欢迎订阅Youtube破解资源君) 41
-      - 欧洲(欢迎订阅Youtube破解资源君) 42
-      - 欧洲(欢迎订阅Youtube破解资源君) 43
-      - 欧洲(欢迎订阅Youtube破解资源君) 44
-      - 欧洲(欢迎订阅Youtube破解资源君) 45
-      - 欧洲(欢迎订阅Youtube破解资源君) 46
-      - 欧洲(欢迎订阅Youtube破解资源君) 47
-      - 欧洲(欢迎订阅Youtube破解资源君) 48
-      - 欧洲(欢迎订阅Youtube破解资源君) 49
-      - 欧洲(欢迎订阅Youtube破解资源君) 50
-      - 欧洲(欢迎订阅Youtube破解资源君) 51
-      - 欧洲(欢迎订阅Youtube破解资源君) 52
-      - 欧洲(欢迎订阅Youtube破解资源君) 53
-      - 欧洲(欢迎订阅Youtube破解资源君) 54
-      - 欧洲(欢迎订阅Youtube破解资源君) 55
-      - 欧洲(欢迎订阅Youtube破解资源君) 56
-      - 欧洲(欢迎订阅Youtube破解资源君) 57
-      - 欧洲(欢迎订阅Youtube破解资源君) 58
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 7
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 8
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 9
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 10
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 11
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 12
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 13
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 14
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 15
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 16
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 17
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 18
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 19
+      - 亚洲(油管:破解资源君)
+      - 亚洲(油管:破解资源君) 2
+      - 亚洲(油管:破解资源君) 3
+      - 亚洲(油管:破解资源君) 4
+      - 亚洲(油管:破解资源君) 5
+      - 亚洲(油管:破解资源君) 6
+      - 亚洲(油管:破解资源君) 7
+      - 亚洲(油管:破解资源君) 8
+      - 新加坡(油管:破解资源君)
+      - 新加坡(油管:破解资源君) 2
+      - 新加坡(油管:破解资源君) 3
+      - 新加坡(油管:破解资源君) 4
+      - 香港(油管:破解资源君)
+      - 香港(油管:破解资源君) 2
+      - 日本(油管:破解资源君)
+      - 日本(油管:破解资源君) 2
+      - 日本(油管:破解资源君) 3
+      - 日本(油管:破解资源君) 4
+      - 欧洲(油管:破解资源君2.0)
+      - 欧洲(油管:破解资源君2.0) 2
+      - 欧洲(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0) 4
+      - 欧洲(油管:破解资源君2.0) 5
+      - 欧洲(油管:破解资源君2.0) 6
+      - 欧洲(油管:破解资源君2.0) 7
+      - 欧洲(油管:破解资源君2.0) 8
+      - 欧洲(油管:破解资源君2.0) 9
+      - 欧洲(油管:破解资源君)
+      - 欧洲(油管:破解资源君) 2
+      - 欧洲(油管:破解资源君) 3
+      - 欧洲(油管:破解资源君) 4
+      - 欧洲(油管:破解资源君) 5
+      - 欧洲(油管:破解资源君) 6
+      - 欧洲(油管:破解资源君) 7
+      - 欧洲(油管:破解资源君) 8
+      - 欧洲(油管:破解资源君) 9
+      - 欧洲(油管:破解资源君) 10
+      - 欧洲(油管:破解资源君) 11
+      - 欧洲(油管:破解资源君) 12
+      - 欧洲(油管:破解资源君) 13
+      - 欧洲(油管:破解资源君) 14
+      - 欧洲(油管:破解资源君) 15
+      - 欧洲(油管:破解资源君) 16
+      - 欧洲(油管:破解资源君) 17
+      - 欧洲(油管:破解资源君) 18
+      - 欧洲(油管:破解资源君) 19
+      - 欧洲(油管:破解资源君) 20
+      - 欧洲(油管:破解资源君) 21
+      - 欧洲(油管:破解资源君) 22
+      - 欧洲(油管:破解资源君) 23
+      - 欧洲(油管:破解资源君) 24
+      - 欧洲(油管:破解资源君) 25
+      - 欧洲(油管:破解资源君) 26
+      - 欧洲(油管:破解资源君) 27
+      - 欧洲(油管:破解资源君) 28
+      - 欧洲(油管:破解资源君) 29
+      - 欧洲(油管:破解资源君) 30
+      - 欧洲(油管:破解资源君) 31
+      - 欧洲(油管:破解资源君) 32
+      - 欧洲(油管:破解资源君) 33
+      - 欧洲(油管:破解资源君) 34
+      - 欧洲(油管:破解资源君) 35
+      - 欧洲(油管:破解资源君) 36
+      - 欧洲(油管:破解资源君) 37
+      - 欧洲(油管:破解资源君) 38
+      - 欧洲(油管:破解资源君) 39
+      - 欧洲(油管:破解资源君) 40
+      - 欧洲(油管:破解资源君) 41
+      - 欧洲(油管:破解资源君) 42
+      - 欧洲(油管:破解资源君) 43
+      - 欧洲(油管:破解资源君) 44
+      - 欧洲(油管:破解资源君) 45
+      - 欧洲(油管:破解资源君) 46
+      - 欧洲(油管:破解资源君) 47
+      - 欧洲(油管:破解资源君) 48
+      - 欧洲(油管:破解资源君) 49
+      - 欧洲(油管:破解资源君) 50
+      - 欧洲(油管:破解资源君) 51
+      - 欧洲(油管:破解资源君) 52
+      - 欧洲(油管:破解资源君) 53
+      - 欧洲(油管:破解资源君) 54
+      - 美国(油管:破解资源君2.0)
+      - 美国(油管:破解资源君2.0) 2
+      - 美国(油管:破解资源君2.0) 3
+      - 美国(油管:破解资源君2.0) 4
+      - 美国(油管:破解资源君2.0) 5
+      - 美国(油管:破解资源君2.0) 6
+      - 美国(油管:破解资源君2.0) 7
+      - 美国(油管:破解资源君2.0) 8
+      - 美国(油管:破解资源君2.0) 9
+      - 美国(油管:破解资源君2.0) 10
+      - 美国(油管:破解资源君2.0) 11
+      - 美国(油管:破解资源君)
+      - 美国(油管:破解资源君) 2
+      - 美国(油管:破解资源君) 3
+      - 美国(油管:破解资源君) 4
+      - 美国(油管:破解资源君) 5
+      - 美国(油管:破解资源君) 6
+      - 美国(油管:破解资源君) 7
+      - 美国(油管:破解资源君) 8
+      - 美国(油管:破解资源君) 9
+      - 美国(油管:破解资源君) 10
+      - 美国(油管:破解资源君) 11
+      - 美国(油管:破解资源君) 12
+      - 美国(油管:破解资源君) 13
+      - 美国(油管:破解资源君) 14
+      - 美国(油管:破解资源君) 15
+      - 美国(油管:破解资源君) 16
+      - 美国(油管:破解资源君) 17
+      - 美国(油管:破解资源君) 18
+      - 美国(油管:破解资源君) 19
+      - 美国(油管:破解资源君) 20
+      - 美国(油管:破解资源君) 21
+      - 美国(油管:破解资源君) 22
+      - 美国(油管:破解资源君) 23
+      - 美国(油管:破解资源君) 24
+      - 美国(油管:破解资源君) 25
+      - 美国(油管:破解资源君) 26
+      - 美国(油管:破解资源君) 27
+      - 美国(油管:破解资源君) 28
+      - 美国(油管:破解资源君) 29
+      - 美国(油管:破解资源君) 30
+      - 美国(油管:破解资源君) 31
+      - 美国(油管:破解资源君) 32
+      - 美国(油管:破解资源君) 33
+      - 美国(油管:破解资源君) 34
+      - 美国(油管:破解资源君) 35
+      - 美国(油管:破解资源君) 36
+      - 美国(油管:破解资源君) 37
+      - 美国(油管:破解资源君) 38
+      - 美国(油管:破解资源君) 39
+      - 美国(油管:破解资源君) 40
+      - 美国(油管:破解资源君) 41
+      - 美国(油管:破解资源君) 42
+      - 美国(油管:破解资源君) 43
+      - 美国(油管:破解资源君) 44
+      - 美国(油管:破解资源君) 45
+      - 美国(油管:破解资源君) 46
+      - 俄罗斯(油管:破解资源君)
+      - 俄罗斯(油管:破解资源君) 2
+      - 俄罗斯(油管:破解资源君) 3
+      - 俄罗斯(油管:破解资源君) 4
+      - 俄罗斯(油管:破解资源君) 5
+      - 俄罗斯(油管:破解资源君) 6
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
